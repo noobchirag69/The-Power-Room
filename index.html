@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="shortcut icon" href="" />
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
+  <title>The Power Room</title>
+</head>
+
+<body class="text-gray-800 antialiased">
+  <!-- Navbar -->
+  <nav class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 ">
+    <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+      <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start" data-aos="fade-right">
+        <a class="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-orange-500"
+          href="#">The Power Room</a><button
+          class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+          type="button" onclick="toggleNavbar('example-collapse-navbar')">
+          <i class="text-orange-500 fas fa-bars"></i>
+        </button>
+      </div>
+      <div class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
+        id="example-collapse-navbar" data-aos="fade-left">
+        <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+          <!-- Icon 1 -->
+          <li class="flex items-center">
+            <a class="lg:text-orange-500 lg:hover:text-gray-300 text-orange-500 px-3 py-4 lg:py-2 flex items-center ml-auto mr-auto text-xs uppercase font-bold"
+              href="#About"><span
+                class="lg:hidden inline-block ml-2"></span>ABOUT</a>
+          </li>
+          <!-- Icon 2 -->
+          <li class="flex items-center">
+            <a class="lg:text-orange-500 lg:hover:text-gray-300 text-orange-500 px-3 py-4 lg:py-2 flex items-center ml-auto mr-auto text-xs uppercase font-bold"
+              href="#Trainers"><span
+                class="lg:hidden inline-block ml-2"></span>TRAINERS</a>
+          </li>
+          <!-- Icon 3 -->
+          <li class="flex items-center">
+            <a class="lg:text-orange-500 lg:hover:text-gray-300 text-orange-500 px-3 py-4 lg:py-2 flex items-center ml-auto mr-auto text-xs uppercase font-bold"
+              href="#Contact"><span
+                class="lg:hidden inline-block ml-2"></span>CONTACT</a>
+          </li>
+          <!-- Icon 4 -->
+          <li class="flex items-center">
+            <a class="lg:text-orange-500 lg:hover:text-gray-300 text-orange-500 px-3 py-4 lg:py-2 flex items-center ml-auto mr-auto text-xs uppercase font-bold"
+              href="#Follow"><span
+                class="lg:hidden inline-block ml-2"></span>FOLLOW</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Main Area -->
+  <main>
+    <!-- Hero -->
+    <div class="relative pt-16 pb-32 flex content-center items-center justify-center bg-black" style="min-height: 95vh;">
+      <div class="absolute top-0 w-full h-full bg-top bg-cover" data-aos="fade-down"
+        style='background-image: url("https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80");'>
+        <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
+      </div>
+      <div class="container relative mx-auto" data-aos="fade-in">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+            <div>
+              <h1 class="text-white font-semibold uppercase text-5xl">
+                Feel The <span class="text-orange-500">Power</span>
+              </h1>
+              <p class="mt-4 text-lg text-gray-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident error omnis dolorum dicta laboriosam numquam cum, eos aperiam quam doloribus iure tenetur, similique laudantium ea quasi reprehenderit id ut ipsum.
+              </p>
+              <a href="#" class="bg-transparent hover:bg-orange-500 text-orange-500 font-semibold hover:text-white p-4 border border-orange-500 hover:border-transparent rounded inline-block mt-5 cursor-pointer">Download Bochure</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="About" class="relative py-20 bg-black text-white">
+      <div class="container mx-auto px-4">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full md:w-4/12 ml-auto mr-auto px-4" data-aos="fade-right">
+            <img alt="..." class="max-w-full rounded-lg shadow-lg"
+              src="https://images.unsplash.com/photo-1590487988256-9ed24133863e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=669&q=80"/>
+          </div>
+          <div class="w-full md:w-5/12 ml-auto mr-auto px-4" data-aos="fade-left">
+            <div class="md:pr-12">
+              <small class="text-orange-500">About Our Gym</small>
+              <h3 class="text-4xl uppercase font-bold">Safe Body Building</h3>
+              <p class="mt-4 text-lg leading-relaxed">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis natus neque ipsa nisi iste, hic non vero unde modi in?
+              </p>
+              <ul class="list-none mt-6">
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="font-semibold inline-block py-3 text-orange-500 mr-3"><i
+                          class="fas fa-dumbbell fa-2x"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-xl">
+                        The latest gym equipments
+                      </h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="font-semibold inline-block py-3 text-orange-500 mr-3"><i
+                          class="fas fa-hard-hat fa-2x"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-xl">
+                        5-inch, quality foam floor padding
+                      </h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="font-semibold inline-block py-3 text-orange-500 mr-3"><i
+                          class="fas fa-users fa-2x"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-xl">
+                        3 professional trainers
+                      </h4>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Trainers Section -->
+    <section id="Trainers" class="pt-20 bg-black">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap justify-center text-center mb-24">
+          <div class="w-full lg:w-6/12 px-4" data-aos="fade-in">
+            <h2 class="text-4xl uppercase font-semibold text-white">Meet our <span class="text-orange-500">trainers</span></h2>
+            <p class="text-lg leading-relaxed m-4 text-white">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, harum ad rerum provident cum nam.
+            </p>
+          </div>
+        </div>
+        <!-- Trainer Card Wrapper -->
+        <div class="flex flex-wrap">
+          <!-- Card 1 -->
+          <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
+            <div class="px-6">
+              <img alt="..." src="https://images.unsplash.com/photo-1600881333165-1c06e53eeae2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" class="shadow-lg rounded max-w-full mx-auto"
+                style="max-width: 250px;" />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl text-orange-500 font-bold">Steve Rogers</h5>
+                <p class="mt-1 text-sm text-white uppercase font-semibold">
+                  Captain America
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
+            <div class="px-6">
+              <img alt="..." src="https://images.unsplash.com/photo-1584863301515-39ee15adba8d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" class="shadow-lg rounded max-w-full mx-auto"
+                style="max-width: 250px;" />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl text-orange-500 font-bold">Natasha Romanoff</h5>
+                <p class="mt-1 text-sm text-white uppercase font-semibold">
+                  Black Widow
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
+            <div class="px-6">
+              <img alt="..." src="https://images.unsplash.com/photo-1584952449136-88d21d6fd545?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" class="shadow-lg rounded max-w-full mx-auto"
+                style="max-width: 250px;" />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl text-orange-500 font-bold">Bucky Barnes</h5>
+                <p class="mt-1 text-sm text-white uppercase font-semibold">
+                  Winter Soldier
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Header Section -->
+    <section id="Contact" class="pb-20 relative block bg-black text-white">
+      <div class="container mx-auto px-4 lg:pt-24 lg:pb-64 pb-20 pt-20">
+        <div class="flex flex-wrap text-center justify-center">
+          <div class="w-full lg:w-6/12 px-4" data-aos="fade-in">
+            <h2 class="text-4xl font-semibold text-white uppercase">Contact us</h2>
+            <p class="text-lg leading-relaxed mt-4 mb-4">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus exercitationem, ex quisquam necessitatibus error architecto.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Form -->
+    <section class="relative block py-24 lg:pt-0 bg-black">
+      <div class="container mx-auto px-4" data-aos="zoom-in">
+        <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
+          <div class="w-full lg:w-6/12 px-4">
+            <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded bg-gray-300">
+              <div class="flex-auto p-5 lg:p-10 bg-orange-500 text-white">
+                <h4 class="text-2xl text-black font-semibold">Write to us</h4>
+                <p class="leading-relaxed text-black mt-1 mb-4">
+                  Complete this form and we will get back to you in 24 hours.
+                </p>
+                <div class="relative w-full mb-3 mt-8">
+                  <label class="block text-black uppercase text-xs font-bold mb-2" for="full-name">Full
+                    Name</label><input type="text"
+                    class="border-0 px-3 py-3 placeholder-gray-700 bg-white text-black rounded text-sm shadow focus:outline-none focus:ring w-full"
+                    placeholder="Full Name" style="transition: all 0.15s ease 0s;" />
+                </div>
+                <div class="relative w-full mb-3">
+                  <label class="block uppercase text-black text-xs font-bold mb-2" for="email">Email</label><input
+                    type="email"
+                    class="border-0 px-3 py-3 placeholder-gray-700 text-black bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                    placeholder="Email" style="transition: all 0.15s ease 0s;" />
+                </div>
+                <div class="relative w-full mb-3">
+                  <label class="block uppercase text-black text-xs font-bold mb-2"
+                    for="message">Message</label><textarea rows="4" cols="80"
+                    class="border-0 px-3 py-3 placeholder-gray-700 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                    placeholder="Type a message..."></textarea>
+                </div>
+                <div class="text-center mt-6">
+                  <button
+                    class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                    type="button" style="transition: all 0.15s ease 0s;">
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer id="Follow" class="relative bg-black pb-6">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-wrap">
+        <div class="w-full lg:w-6/12 mx-auto text-center mb-5" data-aos="fade-in">
+          <h4 class="text-3xl text-orange-500 font-semibold">Follow us on social media</h4>
+          <h5 class="text-lg mt-0 mb-2 text-white">
+            Find us on any of these platforms, we respond within 1-2 business days.
+          </h5>
+          <div class="mt-6">
+            <button
+              class="bg-white text-orange-500 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+              type="button">
+              <i class="flex fab fa-facebook"></i></button><button
+              class="bg-white text-orange-500 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+              type="button">
+              <i class="flex fab fa-instagram"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <hr class="my-6 border-gray-400">
+      <div class="flex flex-wrap items-center md:justify-between justify-center">
+        <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+          <div class="text-sm text-white font-semibold py-1">
+            Copyright © 2021 The Power Room
+            <br>
+            Made with ❤ by Chirag Chakraborty
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script>
+  function toggleNavbar(collapseID) {
+    document.getElementById(collapseID).classList.toggle("hidden");
+    document.getElementById(collapseID).classList.toggle("block");
+  }
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous"></script>
+<script>
+  AOS.init({
+    delay: 300,
+    duration: 2400,
+    once: false
+  })
+</script>
+</html>
